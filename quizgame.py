@@ -26,7 +26,7 @@ attempt = 0
 while attempt < max_attempt:
    output = input('What does CPU stand for? ')
    attempt += 1
-   if output.lower() == 'Central processing unit':
+   if output.lower() == 'central processing unit':
      print('correct')
      score += 1
      break
@@ -40,7 +40,7 @@ attempt = 0
 while attempt < max_attempt:
    output = input('What does GPU stand for? ')
    attempt += 1
-   if output.lower() == 'Graphics processing unit':
+   if output.lower() == 'graphics processing unit':
      print('correct')
      score += 1
      break
@@ -54,7 +54,7 @@ attempt = 0
 while attempt < max_attempt:
    output = input('What does RAM stand for? ')
    attempt += 1
-   if output.lower() == 'Random Access Memory':
+   if output.lower() == 'random access memory':
      print('correct')
      score += 1
      break
@@ -68,7 +68,7 @@ attempt = 0
 while attempt < max_attempt:
    output = input('What does ROM stand for? ')
    attempt += 1
-   if output.lower() == 'Read only memory':
+   if output.lower() == 'read only memory':
      print('correct')
      score += 1
      break
@@ -77,3 +77,5 @@ while attempt < max_attempt:
       print('Maximum attempts exceeded')
      else:
        print('incorrect, Try again')
+
+print(f'you answered {score} questions correctly')

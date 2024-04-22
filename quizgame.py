@@ -1,7 +1,7 @@
 print("It's time to play a game")
-play_game = input('Start game: ' ).lower()
+play_game = input('Start game: ' )
 
-if play_game != "yes":
+if play_game.lower() != "yes":
   quit()
 print("let's get started")
 
